@@ -1,0 +1,18 @@
+# Runtime data — created locally when you run AISHA, don't commit
+aisha.db
+*.db
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Trained model artifacts
+malware_classifier.json
+training/training_data.jsonl
+training/aisha-lora-adapter/
+
+# OS
+.DS_Store
+Thumbs.db
